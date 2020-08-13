@@ -22,6 +22,13 @@ function positiveSum(arr) {
     return sum
 }
 
+// Solution 2.1
+function positiveSum(arr) {
+  let sum = 0
+  arr.forEach(num => num > 0 && (sum += num))
+  return sum
+}
+
 // Cases
 console.log(positiveSum([1,-2,3,4,5]));
 console.log(positiveSum([-1,-2,-3,-4,-5]));
