@@ -15,7 +15,7 @@ export const positiveSum = (arr: number[]) => arr.reduce((accumulator: number, c
 
 // Solution 2
 export function positiveSum(arr: number[]): number {
-    let sum = 0
+    let sum: number = 0
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] > 0) {
             sum += arr[i]
@@ -25,6 +25,12 @@ export function positiveSum(arr: number[]): number {
     return sum
 }
 
+// Solution 2.1
+export function positiveSum(arr: number[]): number {
+    let sum: number = 0
+    arr.forEach((num) => num > 0 && (sum += num))
+    return sum
+}
 
 console.log(positiveSum([1, -2, 3, 4, 5]));
 console.log(positiveSum([-1, -2, -3, -4, -5]));
