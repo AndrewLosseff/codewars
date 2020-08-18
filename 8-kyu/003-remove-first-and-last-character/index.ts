@@ -37,14 +37,6 @@ export const removeChar = (str: string): string => {
     return newStr.join('')
 }
 
-// Solution 4.1
-export const removeChar = (str: string): string => {
-    const newStr: string[] = [...str];
-    newStr.shift()
-    newStr.pop()
-    return newStr.join('')
-}
-
 // Solution 5.1
 export const removeChar = (str: string): string =>  str.replace(/^.|.$/g, '');
 
