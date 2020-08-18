@@ -1,4 +1,10 @@
 # Solution 1.1
+import re
+def remove_char(str): return re.sub('^.|.$', '', str)
+
+# Solution 2.1
+
+
 def remove_char(str):
     newS = ''
     for index in range(len(str)):
@@ -7,7 +13,7 @@ def remove_char(str):
 
     return newS
 
-# Solution 1.2
+# Solution 2.2
 
 
 def remove_char(str):
@@ -19,18 +25,17 @@ def remove_char(str):
     return newS
 
 
-# Solution 2.1
+# Solution 3.1
 def remove_char(str):
     return str[1: len(str) - 1]
 
-# Solution 2.2
+# Solution 3.2
 
 
 def remove_char(str): return str[1: - 1]
 
-# Solution 3.1
 
-
+# Solution 4.1
 def remove_char(str):
     new_list = list(str)
     new_list.pop()
