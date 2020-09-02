@@ -18,7 +18,7 @@ def find_smallest_int(arr):
     return sorted(arr)[0]
 
 
-Reducer
+# Reducer
 
 
 def find_smallest_int(arr):
