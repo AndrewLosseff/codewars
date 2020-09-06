@@ -12,7 +12,7 @@ array1 = [True,  True,  True,  False,
 def count_sheeps(arrayOfSheeps):
     amount = 0
     for sheep in arrayOfSheeps:
-        if (i == True):
+        if (sheep == True):
             amount += 1
     return amount
 
