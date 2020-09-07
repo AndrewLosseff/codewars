@@ -16,3 +16,4 @@
 - Find the smallest integer in the array -> https://www.codewars.com/kata/55a2d7ebe362935a210000b2
 - Grasshopper - Summation -> https://www.codewars.com/kata/55d24f55d7dd296eb9000030
 - Counting sheep... -> https://www.codewars.com/kata/54edbc7200b811e956000556
+- Reversed Strings -> https://www.codewars.com/kata/5168bb5dfe9a00b126000018
