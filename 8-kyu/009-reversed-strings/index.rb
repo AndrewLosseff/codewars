@@ -14,12 +14,12 @@ def solution(str)
 end
 
 def solution(str)
-    return str.reverse
+    str.reverse
 end
 
 # Reduce
 def solution(str)
-    return str.split("").reduce("") {|acc, cur| acc + cur}
+    str.split("").reduce("") {|acc, cur| cur + acc}
 end
 
 
