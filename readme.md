@@ -19,3 +19,4 @@
 - Grasshopper - Summation -> https://www.codewars.com/kata/55d24f55d7dd296eb9000030
 - Counting sheep... -> https://www.codewars.com/kata/54edbc7200b811e956000556
 - Reversed Strings -> https://www.codewars.com/kata/5168bb5dfe9a00b126000018
+- Is n divisible by x and y? -> https://www.codewars.com/kata/5545f109004975ea66000086
