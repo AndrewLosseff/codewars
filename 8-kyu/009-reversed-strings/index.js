@@ -24,7 +24,7 @@ function solution(str){
   return [...str].reverse().join("")
 }
 
-// Recurtion
+// Recursion
 function solution(str){
     return str.length > 0 ? solution(str.substring(1)) + str.charAt(0) : '';
 }
