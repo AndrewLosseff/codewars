@@ -20,3 +20,5 @@
 - Counting sheep... -> https://www.codewars.com/kata/54edbc7200b811e956000556
 - Reversed Strings -> https://www.codewars.com/kata/5168bb5dfe9a00b126000018
 - Is n divisible by x and y? -> https://www.codewars.com/kata/5545f109004975ea66000086
+- Square(n) Sum -> https://www.codewars.com/kata/515e271a311df0350d00000f
+- Convert number to reversed array of digits -> https://www.codewars.com/kata/5583090cbe83f4fd8c000051
