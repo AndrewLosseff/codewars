@@ -9,25 +9,43 @@ function abbrevName(name){
     return answer.map(el => el.toUpperCase()).join(".")
 }
 
-// Array
+Array
 function abbrevName(name){
    const newArray = name.split(" ")
-   return (newArray[0][0] + "." + newArray[1][0]).toUpperCase()
+   return (
+      (newArray[0][0] + "." + newArray[1][0]).toUpperCase()
+   )
 }
 
 // Map
 function abbrevName(name){
-   return name.split(" ").map(el => el[0].toUpperCase()).join(".")
+   return (
+      name.split(" ")
+         .map(el => el[0]
+         .toUpperCase())
+         .join(".")
+   )
 }
 
 // Substring
 function abbrevName(name){
-   return name.split(" ").map(el => el.substring(0,1).toUpperCase()).join(".")
+   return (
+      name
+         .split(" ")
+         .map(el => el.substring(0,1).toUpperCase())
+         .join(".")
+   )
 }
 
 // regex
 function abbrevName(name){
-   return name.match(/\b(\w)/g).toString().toUpperCase().replace(',', '.');
+   return (
+      name
+         .match(/\b(\w)/g)
+         .toString()
+         .toUpperCase()
+         .replace(',', '.')
+   )
 }
 
 console.log(abbrevName("Sam harris"));
