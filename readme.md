@@ -4,17 +4,17 @@
 
 - JavaScript
 
-### Structure
+## Structure
 
 'kata level'/'kata name' => 8-kyu/even-or-odd/
 
-### Cata List
+## Cata List
 
-#### 6-kuy
+### 6-kuy
 
 - Multiples of 3 or 5 -> https://www.codewars.com/kata/514b92a657cdc65150000006
 
-#### 8-kuy
+### 8-kuy
 
 - Even or Odd -> https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
 - Sum of positive -> https://www.codewars.com/kata/5715eaedb436cf5606000381
