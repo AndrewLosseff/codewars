@@ -1,15 +1,21 @@
 # Solving Codewars katas
 
-#### Structure:
-'kata level'/'my index number + kata name' => 8-kyu/001-even-or-odd/
+## Language
 
-#### Languages:
 - JavaScript
-- TypeScript
-- Ruby
-- Python
-  
-### Cata List:
+
+### Structure
+
+'kata level'/'kata name' => 8-kyu/even-or-odd/
+
+### Cata List
+
+#### 6-kuy
+
+- Multiples of 3 or 5 -> https://www.codewars.com/kata/514b92a657cdc65150000006
+
+#### 8-kuy
+
 - Even or Odd -> https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
 - Sum of positive -> https://www.codewars.com/kata/5715eaedb436cf5606000381
 - Remove First and Last Character -> https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
